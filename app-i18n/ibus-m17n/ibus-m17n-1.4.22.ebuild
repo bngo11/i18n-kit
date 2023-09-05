@@ -6,7 +6,7 @@ inherit gnome3-utils xdg
 
 DESCRIPTION="M17N engine for IBus"
 HOMEPAGE="https://github.com/ibus/ibus/wiki"
-SRC_URI="https://github.com/ibus/ibus-m17n/releases/download/1.4.21/ibus-m17n-1.4.21.tar.gz -> ibus-m17n-1.4.21.tar.gz"
+SRC_URI="https://github.com/ibus/ibus-m17n/releases/download/1.4.22/ibus-m17n-1.4.22.tar.gz -> ibus-m17n-1.4.22.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
