@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=app-alternatives/awk cdb? ( || ( dev-db/tinycdb dev-db/cdb ) )
+DESCRIPTION=Jisyo (dictionary) files for the SKK Japanese-input software
+EAPI=7
+HOMEPAGE=http://openlab.ring.gr.jp/skk/dic.html
+IUSE=cdb
+KEYWORDS=*
+LICENSE=CC-BY-SA-3.0 GPL-2+ public-domain unicode
+SLOT=0
+SRC_URI=https://github.com/skk-dev/dict/archive/1909dda026e6038975359a5eaeafcf50c9ce7fa3.tar.gz -> skk-jisyo-20230207.tar.gz
+_md5_=9e3489532bc19e0ed2862c2e1d25173b
