@@ -9,6 +9,6 @@ KEYWORDS=*
 LICENSE=GPL-2+
 RDEPEND=app-i18n/ibus dev-libs/m17n-lib gtk? ( x11-libs/gtk+:3 ) nls? ( virtual/libintl ) >=dev-db/m17n-db-1.7
 SLOT=0
-SRC_URI=https://github.com/ibus/ibus-m17n/releases/download/1.4.22/ibus-m17n-1.4.22.tar.gz -> ibus-m17n-1.4.22.tar.gz
+SRC_URI=https://github.com/ibus/ibus-m17n/releases/download/1.4.23/ibus-m17n-1.4.23.tar.gz -> ibus-m17n-1.4.23.tar.gz
 _eclasses_=gnome3-utils	aab8fff805a024b22f3769cde0782faa	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=808666edf31e2bb24614c31ef8135df7
+_md5_=daaf6daeac3e78d626e1a160cd84577f
