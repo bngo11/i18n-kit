@@ -7,7 +7,7 @@ inherit cmake gnome3-utils vcs-snapshot virtualx
 
 DESCRIPTION="Chinese Chewing engine for IBus, provides intelligent Zhuyin(BoPoMoFo) support"
 HOMEPAGE="https://github.com/ibus/ibus/wiki"
-SRC_URI="https://github.com/definite/ibus-chewing/tarball/ae83a09ad60f466906d8fd131002722271ed2755 -> ibus-chewing-1.6.1-ae83a09.tar.gz"
+SRC_URI="https://github.com/definite/ibus-chewing/tarball/f82342483341068101d4f8116bd4e8f3b322f220 -> ibus-chewing-1.6.2-f823424.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
