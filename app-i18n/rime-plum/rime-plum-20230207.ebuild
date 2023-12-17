@@ -9,11 +9,11 @@ HOMEPAGE="https://rime.im/ https://github.com/rime/plum"
 SRC_URI="
 	https://github.com/rime/plum/archive/6f502ff6fa87789847fa18200415318e705bffa4.tar.gz -> rime-plum-20230207.tar.gz
 	https://github.com/rime/rime-bopomofo/archive/c7618f4f5728e1634417e9d02ea50d82b71956ab.tar.gz -> bopomofo.tar.gz
-	https://github.com/rime/rime-cangjie/archive/8dfad9e537f18821b71ba28773315d9c670ae245.tar.gz -> cangjie.tar.gz
+	https://github.com/rime/rime-cangjie/archive/75b10325bf4c590a3ffef7039a6f052a729edc55.tar.gz -> cangjie.tar.gz
 	https://github.com/rime/rime-essay/archive/e0519d0579722a0871efb68189272cba61a7350b.tar.gz -> essay.tar.gz
 	https://github.com/rime/rime-luna-pinyin/archive/79aeae200a7370720be98232844c0715f277e1c0.tar.gz -> luna-pinyin.tar.gz
 	https://github.com/rime/rime-prelude/archive/dd84abecc33f0b05469f1d744e32d2b60b3529e3.tar.gz -> prelude.tar.gz
-	https://github.com/rime/rime-stroke/archive/e6c7608925009636577ff7469eecc870f1de18f3.tar.gz -> stroke.tar.gz
+	https://github.com/rime/rime-stroke/archive/65fdbbf2f9485cc907cb9a6d6b9210938a50f71e.tar.gz -> stroke.tar.gz
 	https://github.com/rime/rime-terra-pinyin/archive/9427853de91d645d9aca9ceace8fe9e9d8bc5b50.tar.gz -> terra-pinyin.tar.gz"
 
 LICENSE="GPL-3 LGPL-3"
