@@ -7,5 +7,5 @@ IUSE=cdb
 KEYWORDS=*
 LICENSE=CC-BY-SA-3.0 GPL-2+ public-domain unicode
 SLOT=0
-SRC_URI=https://github.com/skk-dev/dict/archive/b7de5cd70aac106d9dd20898531357fbf4ca4707.tar.gz -> skk-jisyo-20231226.tar.gz
-_md5_=7054d2210b8ac941f3d772cd73d78bf3
+SRC_URI=https://github.com/skk-dev/dict/archive/00896147273037623f6416684ef586ab17297be2.tar.gz -> skk-jisyo-20240117.tar.gz
+_md5_=89149acdedc7f99e5f7496aa4cd6cd33
