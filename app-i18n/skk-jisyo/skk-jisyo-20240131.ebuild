@@ -6,7 +6,7 @@ MY_PN=${PN^^}
 
 DESCRIPTION="Jisyo (dictionary) files for the SKK Japanese-input software"
 HOMEPAGE="http://openlab.ring.gr.jp/skk/dic.html"
-SRC_URI="https://github.com/skk-dev/dict/archive/00896147273037623f6416684ef586ab17297be2.tar.gz -> skk-jisyo-20240117.tar.gz"
+SRC_URI="https://github.com/skk-dev/dict/archive/b798a46b886f71c0c25ad2a9e78b1c3e8933970c.tar.gz -> skk-jisyo-20240131.tar.gz"
 
 LICENSE="CC-BY-SA-3.0 GPL-2+ public-domain unicode"
 SLOT="0"
