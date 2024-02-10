@@ -9,7 +9,7 @@ KEYWORDS=*
 LICENSE=BSD
 RDEPEND=app-i18n/opencc:0= >=dev-cpp/glog-0.3.5:0= dev-cpp/yaml-cpp:0= dev-libs/boost:0=[threads(+)] dev-libs/capnproto:0= dev-libs/leveldb:0= dev-libs/marisa:0=
 RESTRICT=!test? ( test )
-SLOT=0/1-1.9.0
-SRC_URI=https://github.com/rime/librime/tarball/09151a040ebb163fe1d3a22cdd3629e0f8b53e2a -> librime-1.9.0-09151a0.tar.gz
+SLOT=0/1-1.10.0
+SRC_URI=https://github.com/rime/librime/tarball/630fbdc8f2b2a277064c81ad69f8ec878c1b0098 -> librime-1.10.0-630fbdc.tar.gz
 _eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=22cedd2e2af3a2cdb317c9e83e0bdfa2
+_md5_=35933ce548beff46924b597516043e89
