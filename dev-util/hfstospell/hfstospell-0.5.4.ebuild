@@ -6,7 +6,7 @@ inherit autotools toolchain-funcs
 
 DESCRIPTION="HFST spell checker library and command line tool"
 HOMEPAGE="https://github.com/hfst/hfst-ospell"
-SRC_URI="https://github.com/hfst/hfst-ospell/releases/download/v0.5.3/hfst-ospell-0.5.3.tar.bz2 -> hfst-ospell-0.5.3.tar.bz2"
+SRC_URI="https://github.com/hfst/hfst-ospell/releases/download/v0.5.4/hfst-ospell-0.5.4.tar.bz2 -> hfst-ospell-0.5.4.tar.bz2"
 
 LICENSE="Apache-2.0"
 SLOT="0"
