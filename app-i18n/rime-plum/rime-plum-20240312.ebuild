@@ -7,9 +7,9 @@ inherit user
 DESCRIPTION="Rime configuration manager and input schema repository"
 HOMEPAGE="https://rime.im/ https://github.com/rime/plum"
 SRC_URI="
-	https://github.com/rime/plum/archive/6f502ff6fa87789847fa18200415318e705bffa4.tar.gz -> rime-plum-20230207.tar.gz
+	https://github.com/rime/plum/archive/cec18c1f5f4552936f7098a21515cf0b9ca6ef2a.tar.gz -> rime-plum-20240312.tar.gz
 	https://github.com/rime/rime-bopomofo/archive/c7618f4f5728e1634417e9d02ea50d82b71956ab.tar.gz -> bopomofo.tar.gz
-	https://github.com/rime/rime-cangjie/archive/75b10325bf4c590a3ffef7039a6f052a729edc55.tar.gz -> cangjie.tar.gz
+	https://github.com/rime/rime-cangjie/archive/0ac8452eeb4abbcd8dd1f9e7314012310743285f.tar.gz -> cangjie.tar.gz
 	https://github.com/rime/rime-essay/archive/e0519d0579722a0871efb68189272cba61a7350b.tar.gz -> essay.tar.gz
 	https://github.com/rime/rime-luna-pinyin/archive/79aeae200a7370720be98232844c0715f277e1c0.tar.gz -> luna-pinyin.tar.gz
 	https://github.com/rime/rime-prelude/archive/dd84abecc33f0b05469f1d744e32d2b60b3529e3.tar.gz -> prelude.tar.gz
