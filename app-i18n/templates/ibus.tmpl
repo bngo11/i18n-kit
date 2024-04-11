@@ -14,7 +14,7 @@ SRC_URI="{{ src_uri }}"
 LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="*"
-IUSE="X appindicator +emoji gtk2 +gtk3 gtk4 +gui +introspection libnotify nls +python +unicode vala wayland"
+IUSE="X appindicator +emoji gtk2 +gtk3 +gtk4 +gui +introspection libnotify nls +python +unicode vala wayland"
 
 REQUIRED_USE="
 	appindicator? ( gtk3 )
@@ -28,18 +28,18 @@ REQUIRED_USE="
 REQUIRED_USE+=" gtk3? ( wayland? ( introspection ) )" # bug 915359
 DEPEND="
 	app-text/iso-codes
-	>=dev-libs/glib-2.65.0:2
+	>=dev-libs/glib-2.74.0:2
 	gnome-base/dconf
 	gnome-base/librsvg:2
 	sys-apps/dbus[X?]
 	X? (
 		x11-libs/libX11
-		>=x11-libs/libXfixes-5.0.3
+		>=x11-libs/libXfixes-6.0.0
 	)
 	appindicator? ( dev-libs/libdbusmenu[gtk3?] )
 	gtk2? ( x11-libs/gtk+:2 )
 	gtk3? ( x11-libs/gtk+:3 )
-	gtk4? ( gui-libs/gtk:4 )
+	gtk4? ( x11-libs/gtk:4 )
 	gui? (
 		x11-libs/libX11
 		x11-libs/libXi
@@ -66,7 +66,6 @@ RDEPEND="${DEPEND}
 BDEPEND="
 	$(vala_depend)
 	dev-libs/glib:2
-	dev-util/glib-utils
 	virtual/pkgconfig
 	x11-misc/xkeyboard-config
 	emoji? (
@@ -174,15 +173,15 @@ src_install() {
 
 pkg_postinst() {
 	use gtk2 && gnome3_query_immodules_gtk2
-	use gtk3 && gnome3_query_immodules_gtk3
-	xdg_icon_cache_update
+	use gtk3 && gnome3_update_immodules_cache_gtk3
+	gnome3_icon_cache_update
 	gnome3_schemas_update
 	dconf update
 }
 
 pkg_postrm() {
 	use gtk2 && gnome3_query_immodules_gtk2
-	use gtk3 && gnome3_query_immodules_gtk3
-	xdg_icon_cache_update
+	use gtk3 && gnome3_update_immodules_cache_gtk3
+	gnome3_icon_cache_update
 	gnome3_schemas_update
 }
