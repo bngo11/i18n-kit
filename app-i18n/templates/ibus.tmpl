@@ -39,7 +39,7 @@ DEPEND="
 	appindicator? ( dev-libs/libdbusmenu[gtk3?] )
 	gtk2? ( x11-libs/gtk+:2 )
 	gtk3? ( x11-libs/gtk+:3 )
-	gtk4? ( x11-libs/gtk:4 )
+	gtk4? ( gui-libs/gtk:4 )
 	gui? (
 		x11-libs/libX11
 		x11-libs/libXi
