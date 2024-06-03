@@ -6,7 +6,7 @@ inherit autotools
 
 DESCRIPTION="Intelligent phonetic (Zhuyin/Bopomofo) input method library"
 HOMEPAGE="http://chewing.im/ https://github.com/chewing/libchewing"
-SRC_URI="https://github.com/chewing/libchewing/releases/download/v0.5.1/libchewing-0.5.1.tar.bz2 -> libchewing-0.5.1.tar.bz2"
+SRC_URI="https://github.com/chewing/libchewing/releases/download/v0.8.4/libchewing-0.8.4.tar.zst -> libchewing-0.8.4.tar.zst"
 
 LICENSE="LGPL-2.1"
 SLOT="0/3"

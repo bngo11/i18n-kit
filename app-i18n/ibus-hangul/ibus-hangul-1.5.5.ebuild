@@ -8,7 +8,7 @@ inherit gnome3-utils python-single-r1 xdg virtualx
 
 DESCRIPTION="Korean Hangul engine for IBus"
 HOMEPAGE="https://github.com/libhangul/ibus-hangul/wiki"
-SRC_URI="https://github.com/libhangul/ibus-hangul/releases/download/1.5.4/ibus-hangul-1.5.4.tar.gz -> ibus-hangul-1.5.4.tar.gz"
+SRC_URI="https://github.com/libhangul/ibus-hangul/releases/download/1.5.5/ibus-hangul-1.5.5.tar.xz -> ibus-hangul-1.5.5.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
