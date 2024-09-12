@@ -8,7 +8,7 @@ inherit gnome2-utils python-single-r1 xdg
 
 DESCRIPTION="Tables engines for IBus"
 HOMEPAGE="https://github.com/ibus/ibus/wiki"
-SRC_URI="https://github.com/kaio/ibus-table/releases/download/1.17.7/ibus-table-1.17.7.tar.gz -> ibus-table-1.17.7.tar.gz"
+SRC_URI="https://github.com/kaio/ibus-table/releases/download/1.17.8/ibus-table-1.17.8.tar.gz -> ibus-table-1.17.8.tar.gz"
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="0"
