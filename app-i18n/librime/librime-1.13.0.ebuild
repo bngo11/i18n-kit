@@ -5,7 +5,7 @@ inherit cmake
 
 DESCRIPTION="RIME (Rime Input Method Engine) core library"
 HOMEPAGE="https://rime.im/ https://github.com/rime/librime"
-SRC_URI="https://github.com/rime/librime/tarball/438cb9ba73958429747126210185cf0a0b127087 -> librime-1.12.0-438cb9b.tar.gz"
+SRC_URI="https://github.com/rime/librime/tarball/a0e6a02b6f77c541315dcf777420608716b95dd9 -> librime-1.13.0-a0e6a02.tar.gz"
 
 LICENSE="BSD"
 SLOT="0/1-${PV}"
