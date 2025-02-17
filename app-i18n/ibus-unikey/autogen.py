@@ -1,32 +1,36 @@
-#!/usr/bin.env python3
-from metatools.version import generic
+#!/usr/bin/env python3
 
-
-def get_release(releases_data):
-    # Here we make an exception for this given release because it was wrongly set as a pre-release
-    releases = list(
-        filter(lambda x: (x["prerelease"] is False and x["draft"] is False) or x["tag_name"] == "0.7.0-beta1", releases_data)
-    )
-    return (
-        None
-        if not releases
-        else sorted(releases, key=lambda x: generic.parse(x["tag_name"])).pop()
-    )
+import json
 
 async def generate(hub, **pkginfo):
-    user = "vn-input"
-    repo = "ibus-unikey"
-    releases_data = await hub.pkgtools.fetch.get_page(f"https://api.github.com/repos/{user}/{repo}/releases", is_json=True)
-    latest_release = get_release(releases_data)
+	github_user = "vn-input"
+	github_repo = pkginfo.get("name")
+	json_data = await hub.pkgtools.fetch.get_page(f"https://api.github.com/repos/{github_user}/{github_repo}/releases", is_json=True)
+	version = None
+	url = None
+	suffix = ['alpha', 'beta', 'rc']
 
-    if latest_release is None:
-        raise hub.pkgtools.ebuild.BreezyError(f"Can't find a suitable release of {repo}")
-    tag_name = latest_release["tag_name"]
-    version = latest_release["tag_name"].replace("-", "_")
+	for item in json_data:
+		try:
+			version = item["tag_name"]
+			verlist = version.split(".")
+			if any(x in version for x in suffix):
+				verlist.pop(-1)
+			list(map(int, verlist))
+			break
 
-    ebuild = hub.pkgtools.ebuild.BreezyBuild(
-        **pkginfo,
-        version = version,
-        artifacts = [hub.pkgtools.ebuild.Artifact(url=f"https://github.com/{user}/{repo}/archive/refs/tags/{tag_name}.tar.gz", final_name=f"{repo}-{version}.tar.gz")]
-    )
-    ebuild.push()
+		except (KeyError, IndexError, ValueError):
+			continue
+
+	if version:
+		new_ver = version.replace("-", "_")
+		url = f"https://github.com/{github_user}/{github_repo}/archive/refs/tags/{version}.tar.gz"
+		final_name = f"{github_repo}-{new_ver}.tar.gz"
+		ebuild = hub.pkgtools.ebuild.BreezyBuild(
+			**pkginfo,
+			version=new_ver,
+			artifacts=[hub.pkgtools.ebuild.Artifact(url=url, final_name=final_name)]
+		)
+		ebuild.push()
+
+# vim: ts=4 sw=4 noet
