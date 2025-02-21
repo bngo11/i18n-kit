@@ -8,7 +8,7 @@ inherit gnome3-utils python-single-r1 xdg
 
 DESCRIPTION="Completion input method for IBus"
 HOMEPAGE="https://mike-fabian.github.io/ibus-typing-booster"
-SRC_URI="https://github.com/mike-fabian/ibus-typing-booster/releases/download/2.27.27/ibus-typing-booster-2.27.27.tar.gz -> ibus-typing-booster-2.27.27.tar.gz"
+SRC_URI="https://github.com/mike-fabian/ibus-typing-booster/releases/download/2.27.28/ibus-typing-booster-2.27.28.tar.gz -> ibus-typing-booster-2.27.28.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
