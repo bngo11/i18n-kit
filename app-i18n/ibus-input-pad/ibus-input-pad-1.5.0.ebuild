@@ -3,7 +3,7 @@ EAPI="7"
 
 DESCRIPTION="Input Pad for IBus"
 HOMEPAGE="https://github.com/fujiwarat/input-pad/wiki"
-SRC_URI="https://github.com/fujiwarat/ibus-input-pad/releases/download/1.4.2/ibus-input-pad-1.4.2.tar.gz -> ibus-input-pad-1.4.2.tar.gz"
+SRC_URI="https://github.com/fujiwarat/ibus-input-pad/releases/download/1.5.0/ibus-input-pad-1.5.0.tar.gz -> ibus-input-pad-1.5.0.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

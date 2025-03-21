@@ -6,7 +6,7 @@ inherit autotools
 
 DESCRIPTION="On-screen input pad to send characters with mouse"
 HOMEPAGE="https://github.com/fujiwarat/input-pad/wiki"
-SRC_URI="https://github.com/fujiwarat/input-pad/tarball/451db10570ef93b5d508653e9e0e471729453fb1 -> input-pad-1.0.99.20210817-451db10.tar.gz"
+SRC_URI="https://github.com/fujiwarat/input-pad/tarball/45e5bb672e7ef7e5e4a987a8f381f3ab33f630c3 -> input-pad-1.1.0-45e5bb6.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
