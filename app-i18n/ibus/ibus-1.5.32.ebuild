@@ -9,7 +9,7 @@ inherit autotools bash-completion-r1 gnome3-utils python-r1 toolchain-funcs vala
 DESCRIPTION="Intelligent Input Bus for Linux / Unix OS"
 HOMEPAGE="https://github.com/ibus/ibus/wiki"
 
-SRC_URI="https://github.com/ibus/ibus/releases/download/1.5.31/ibus-1.5.31.tar.gz -> ibus-1.5.31.tar.gz"
+SRC_URI="https://github.com/ibus/ibus/releases/download/1.5.32/ibus-1.5.32.tar.gz -> ibus-1.5.32.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
