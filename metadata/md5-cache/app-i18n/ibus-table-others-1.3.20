@@ -8,5 +8,5 @@ KEYWORDS=*
 LICENSE=GPL-3+
 RDEPEND=app-i18n/ibus-table !app-i18n/ibus-table-code !app-i18n/ibus-table-cyrillic !app-i18n/ibus-table-latin !app-i18n/ibus-table-tv
 SLOT=0
-SRC_URI=https://github.com/moebiuscurve/ibus-table-others/releases/download/1.3.19/ibus-table-others-1.3.19.tar.gz -> ibus-table-others-1.3.19.tar.gz
-_md5_=8b4b0bfbaa7c7341715b3301daa8447f
+SRC_URI=https://github.com/moebiuscurve/ibus-table-others/releases/download/1.3.20/ibus-table-others-1.3.20.tar.gz -> ibus-table-others-1.3.20.tar.gz
+_md5_=c5e711bda16659ab5e92893bb9db0a3d
