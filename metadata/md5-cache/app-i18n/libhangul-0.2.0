@@ -9,5 +9,5 @@ KEYWORDS=*
 LICENSE=LGPL-2.1+
 RDEPEND=virtual/libiconv nls? ( virtual/libintl )
 SLOT=0/1
-SRC_URI=https://api.github.com/repos/libhangul/libhangul/tarball/refs/tags/libhangul-0.1.0 -> libhangul-0.1.0.tar.gz
-_md5_=20df7e9fad9edcfe2a4006475f21d9d5
+SRC_URI=https://api.github.com/repos/libhangul/libhangul/tarball/refs/tags/libhangul-0.2.0 -> libhangul-0.2.0.tar.gz
+_md5_=d75fa865788b4c1f4785769b4ac18003

@@ -4,7 +4,7 @@ EAPI="7"
 
 DESCRIPTION="Library for hangul input method logic, hanja dictionary"
 HOMEPAGE="https://github.com/libhangul/libhangul"
-SRC_URI="https://api.github.com/repos/libhangul/libhangul/tarball/refs/tags/libhangul-0.1.0 -> libhangul-0.1.0.tar.gz"
+SRC_URI="https://api.github.com/repos/libhangul/libhangul/tarball/refs/tags/libhangul-0.2.0 -> libhangul-0.2.0.tar.gz"
 
 LICENSE="LGPL-2.1+"
 SLOT="0/1"
