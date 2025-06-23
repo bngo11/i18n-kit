@@ -1,4 +1,4 @@
-BDEPEND=dev-util/intltool sys-devel/gettext virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+BDEPEND=dev-util/intltool sys-devel/gettext virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.17:1.17 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install prepare unpack
 DEPEND=dev-libs/glib:2 dev-libs/libxml2 x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libxkbfile x11-libs/libxklavier virtual/libintl eekboard? ( dev-libs/eekboard ) introspection? ( dev-libs/gobject-introspection ) xtest? ( x11-libs/libXtst )
 DESCRIPTION=On-screen input pad to send characters with mouse
@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-libs/glib:2 dev-libs/libxml2 x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libxkbfile x11-libs/libxklavier virtual/libintl eekboard? ( dev-libs/eekboard ) introspection? ( dev-libs/gobject-introspection ) xtest? ( x11-libs/libXtst )
 SLOT=0
 SRC_URI=https://github.com/fujiwarat/input-pad/tarball/45e5bb672e7ef7e5e4a987a8f381f3ab33f630c3 -> input-pad-1.1.0-45e5bb6.tar.gz
-_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=autotools	619846d0d85ed5d3334692c0215a603e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=602e81b30e79614b1511e1faeec69606
