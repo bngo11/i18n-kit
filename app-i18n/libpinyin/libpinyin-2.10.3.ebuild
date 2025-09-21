@@ -17,7 +17,7 @@ HOMEPAGE="https://github.com/libpinyin/libpinyin https://sourceforge.net/project
 if [[ "${PV}" == "9999" ]]; then
 	SRC_URI=""
 else
-	SRC_URI="https://github.com/libpinyin/libpinyin/releases/download/2.10.2/libpinyin-2.10.2.tar.gz -> libpinyin-2.10.2.tar.gz"
+	SRC_URI="https://github.com/libpinyin/libpinyin/releases/download/2.10.3/libpinyin-2.10.3.tar.gz -> libpinyin-2.10.3.tar.gz"
 fi
 
 LICENSE="GPL-3+"
