@@ -6,7 +6,7 @@ inherit autotools vala virtualx
 
 DESCRIPTION="GObject-based library to deal with Japanese kana-to-kanji conversion method"
 HOMEPAGE="https://github.com/ueno/libskk"
-SRC_URI="https://github.com/ueno/libskk/releases/download/1.0.5/libskk-1.0.5.tar.xz -> libskk-1.0.5.tar.xz"
+SRC_URI="https://github.com/ueno/libskk/releases/download/1.1.0/libskk-1.1.0.tar.xz -> libskk-1.1.0.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="0"
