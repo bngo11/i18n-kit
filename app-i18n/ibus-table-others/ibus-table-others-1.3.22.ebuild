@@ -4,7 +4,7 @@ EAPI="7"
 
 DESCRIPTION="Various tables for IBus-Table"
 HOMEPAGE="https://github.com/moebiuscurve/ibus-table-others"
-SRC_URI="https://github.com/moebiuscurve/ibus-table-others/releases/download/1.3.21/ibus-table-others-1.3.21.tar.gz -> ibus-table-others-1.3.21.tar.gz"
+SRC_URI="https://github.com/moebiuscurve/ibus-table-others/releases/download/1.3.22/ibus-table-others-1.3.22.tar.gz -> ibus-table-others-1.3.22.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
