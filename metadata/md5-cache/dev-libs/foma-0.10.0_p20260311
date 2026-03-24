@@ -8,6 +8,6 @@ KEYWORDS=*
 LICENSE=Apache-2.0
 RDEPEND=sys-libs/readline:= sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/mhulden/foma/archive/13b0e97ee3b0aaa6e7cc7ba8110e0ddbc456c46a.tar.gz -> foma-0.10.0_p20260220.tar.gz
+SRC_URI=https://github.com/mhulden/foma/archive/0facabcb0b9887b38e7b5d0ee917bb8395b9b2ce.tar.gz -> foma-0.10.0_p20260311.tar.gz
 _eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	e7575bc4a90349d76e72777013b2bbc2	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=af42559046da2ca230c5e802b3048475
+_md5_=2ba83d94945029bbf8428f44080b46a8
