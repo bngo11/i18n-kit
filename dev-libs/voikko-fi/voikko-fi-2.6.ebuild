@@ -9,7 +9,7 @@ inherit python-any-r1
 
 DESCRIPTION="Finnish dictionary for libvoikko based spell checkers (vvfst format)"
 HOMEPAGE="https://voikko.puimula.org/"
-SRC_URI="https://github.com/voikko/corevoikko/tarball/a3f29da7ce47d77e325898d04f01ac9b5c311581 -> corevoikko-2.5-a3f29da.tar.gz"
+SRC_URI="https://github.com/voikko/corevoikko/tarball/d5df3d957e5c40d8a29732fd1283711332113ab5 -> corevoikko-2.6-d5df3d9.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
