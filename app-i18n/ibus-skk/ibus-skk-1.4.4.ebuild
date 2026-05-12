@@ -6,7 +6,7 @@ inherit vala
 
 DESCRIPTION="Japanese SKK engine for IBus"
 HOMEPAGE="https://github.com/ueno/ibus-skk"
-SRC_URI="https://github.com/ueno/ibus-skk/releases/download/ibus-skk-1.4.3/ibus-skk-1.4.3.tar.xz -> ibus-skk-1.4.3.tar.xz"
+SRC_URI="https://github.com/ueno/ibus-skk/releases/download/ibus-skk-1.4.4/ibus-skk-1.4.4.tar.xz -> ibus-skk-1.4.4.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
