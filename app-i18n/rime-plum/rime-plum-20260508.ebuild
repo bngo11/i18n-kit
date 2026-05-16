@@ -7,12 +7,13 @@ inherit user
 DESCRIPTION="Rime configuration manager and input schema repository"
 HOMEPAGE="https://rime.im/ https://github.com/rime/plum"
 SRC_URI="
-	https://github.com/rime/plum/archive/4c28f11f451facef809b380502874a48ba964ddb.tar.gz -> rime-plum-20240417.tar.gz
-	https://github.com/rime/rime-bopomofo/archive/a8c35a4ae3998ac0cdbd02fbb42c883ecada4279.tar.gz -> bopomofo.tar.gz
-	https://github.com/rime/rime-cangjie/archive/0ac8452eeb4abbcd8dd1f9e7314012310743285f.tar.gz -> cangjie.tar.gz
-	https://github.com/rime/rime-essay/archive/816b9eeab0f012e896d6c8d4f9b19f1524574378.tar.gz -> essay.tar.gz
-	https://github.com/rime/rime-luna-pinyin/archive/0c6d8e37f00c3e43fd8d0ada42dab4eda0b3d811.tar.gz -> luna-pinyin.tar.gz
-	https://github.com/rime/rime-prelude/archive/541e03e0f36ff42318848046a3b61ac47483dca3.tar.gz -> prelude.tar.gz
+	https://github.com/rime/plum/archive/b1be1969f914cc005add4090631b855db00c2591.tar.gz -> rime-plum-20260508.tar.gz
+	https://github.com/rime/rime-bopomofo/archive/6085c9a38a4a728047862b33d67eee18aa86f3b9.tar.gz -> bopomofo.tar.gz
+	https://github.com/rime/rime-cangjie/archive/d3ea6bf24e0c9cf593788210945226582bcb4bc9.tar.gz -> cangjie.tar.gz
+	https://github.com/rime/rime-essay/archive/425cc5d152a84389b6fde0ed85929abbfdea401d.tar.gz -> essay.tar.gz
+	https://github.com/rime/rime-luna-pinyin/archive/ba97605aa00b4a972c1bfcd705b957fcd90b192c.tar.gz -> luna-pinyin.tar.gz
+	https://github.com/rime/rime-prelude/archive/082425ea0684bca36474415d4a0e8db9b016487e.tar.gz -> prelude.tar.gz
+	https://github.com/rime/rime-quick/archive/82b95c7de8124dae27a8e6ee17ee9e991f4ec244.tar.gz -> quick.tar.gz
 	https://github.com/rime/rime-stroke/archive/3a4b0f4013e2b4c14b1e80c92b1d4723eb65f39c.tar.gz -> stroke.tar.gz
 	https://github.com/rime/rime-terra-pinyin/archive/fa30016a9db2cf7d546ce33968c311525f0d90a0.tar.gz -> terra-pinyin.tar.gz"
 
