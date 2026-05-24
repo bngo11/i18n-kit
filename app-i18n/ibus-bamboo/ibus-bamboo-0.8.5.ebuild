@@ -7,7 +7,7 @@ inherit desktop xdg-utils
 DESCRIPTION="Vietnamese Bamboo engine for IBus"
 HOMEPAGE="https://github.com/BambooEngine/ibus-bamboo"
 
-SRC_URI="https://github.com/BambooEngine/ibus-bamboo/tarball/8160c9b6d6e7269396d14504d73a3f949bed2eb9 -> ibus-bamboo-0.8.4-8160c9b.tar.gz"
+SRC_URI="https://github.com/BambooEngine/ibus-bamboo/tarball/49e03d7a36b8a8b796950c158b545af8cf9707d4 -> ibus-bamboo-0.8.5-49e03d7.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="*"
