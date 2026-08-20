@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="Multi-purpose finite-state toolkit"
 HOMEPAGE="https://fomafst.github.io/ https://github.com/mhulden/foma"
-SRC_URI="https://github.com/mhulden/foma/archive/0facabcb0b9887b38e7b5d0ee917bb8395b9b2ce.tar.gz -> foma-0.10.0_p20260311.tar.gz"
+SRC_URI="https://github.com/mhulden/foma/archive/b7d24eb49f5068ce9e170d40ead714b9b7437439.tar.gz -> foma-0.10.0_p20260819.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
