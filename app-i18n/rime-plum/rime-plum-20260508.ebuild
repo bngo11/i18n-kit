@@ -14,7 +14,7 @@ SRC_URI="
 	https://github.com/rime/rime-luna-pinyin/archive/56b934b099dfbeab842320f13aa8b461a6ab3e42.tar.gz -> luna-pinyin.tar.gz
 	https://github.com/rime/rime-prelude/archive/082425ea0684bca36474415d4a0e8db9b016487e.tar.gz -> prelude.tar.gz
 	https://github.com/rime/rime-quick/archive/5dcdb9e353d314239e9c8cddc0f42d52da4837bb.tar.gz -> quick.tar.gz
-	https://github.com/rime/rime-stroke/archive/3a4b0f4013e2b4c14b1e80c92b1d4723eb65f39c.tar.gz -> stroke.tar.gz
+	https://github.com/rime/rime-stroke/archive/1e8fff9b9494ddec23b0cbc526bcfd8171a6fd48.tar.gz -> stroke.tar.gz
 	https://github.com/rime/rime-terra-pinyin/archive/8a2c895ad7ee8e2b137d91be77f18f86b04d7fc9.tar.gz -> terra-pinyin.tar.gz"
 
 LICENSE="GPL-3 LGPL-3"
