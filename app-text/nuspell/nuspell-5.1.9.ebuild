@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="Spell checker library and CLI for complex natural languages"
 HOMEPAGE="https://nuspell.github.io/ https://github.com/nuspell/nuspell"
-SRC_URI="https://github.com/nuspell/nuspell/tarball/59257e7dc7e2f3b4a969dc7d171b5134055caa9f -> nuspell-5.1.8-59257e7.tar.gz"
+SRC_URI="https://github.com/nuspell/nuspell/tarball/3d6a45074549fe22eec56a05256d386926f1bebd -> nuspell-5.1.9-3d6a450.tar.gz"
 
 LICENSE="LGPL-3+"
 SLOT="0/5"  # due to libnuspell.so.5
